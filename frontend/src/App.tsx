@@ -1,7 +1,12 @@
+import Layout from "./components/Layout/Layout.tsx";
+
 export default function App() {
-      return (
-      <h1>Auto Shop</h1>
-  )
+    return (
+        <>
+            <Layout/>
+            <h1>Auto Shop</h1>
+        </>
+    )
 }
 
 
